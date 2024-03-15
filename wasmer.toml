@@ -1,0 +1,12 @@
+[package]
+name = "abdebek/abd-astro-starter-326"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/abdebek/abd-astro-starter-326"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
